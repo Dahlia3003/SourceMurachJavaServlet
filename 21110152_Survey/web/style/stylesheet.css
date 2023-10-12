@@ -1,0 +1,44 @@
+body {
+    font-family: "Georgia", serif;
+    font-size: 11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+}
+h1 { 
+    font-size: 30pt;
+    color: tomato;
+    margin-bottom: 0.5em;
+}
+h2 { 
+    color: forestgreen;
+    margin-bottom: 0.5em;
+}
+.cs {
+    float: left;
+    width: 6em;
+    margin-bottom: 0.5em;
+}
+input[type="text"], input[type="email"], input[type="date"] {
+    width: 15em;
+    margin-left: 0.5em;    
+    margin-bottom: 0.5em;
+    font-family: "Georgia", serif;
+    margin-left: 2em;
+}
+
+select {
+    font-family: "Georgia", serif;
+    font-size: 11pt;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+}
+br {
+    clear: both;
+}
+#submit {  
+    width: 10em;
+    height: 2em;   
+    font-family: "Georgia", serif;
+}

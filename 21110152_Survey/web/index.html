@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title>Survey</title>
+        <link rel="stylesheet" href="style/stylesheet.css" type="text/css"/>
+    </head>
+    <body>
+    <img src="Image/logo.png" width="100" height="100" alt="logo"/>
+    <h1>Survey</h1>
+    <p>If you have a moment, we'd appreciate it if you would fill out this survey</p>
+    <h2>Your Information</h2>
+        <form action="emailList" method="post">
+        <input type="hidden" name="action" value="add">
+
+        <label class="cs">First Name</label>
+        <input type="text" name="firstName" required><br>
+
+        <label class="cs">Last Name</label>
+        <input type="text" name="lastName" required><br>
+        
+        <label class="cs">Email</label>
+        <input type="email" name="email" required><br>
+        
+        <label class="cs">Date of Birth</label>
+        <input type="date" name="dateOfBirth" required><br>
+        
+        <h2>How did you hear about us?</h2> 
+        <input type="radio" id="SE" name="hearFrom" value="Search Engine">
+        <label for="SE">Search Engine</label>
+        
+        <input type="radio" id="WO" name="hearFrom" value="Word of mouth">
+        <label for="WO">Word of mouth</label>
+        
+        <input type="radio" id="SM" name="hearFrom" value="Social Media">
+        <label for="SM">Social Media</label>
+        
+        <input type="radio" id="Other" name="hearFrom" value="Other">
+        <label for="Other">Other</label>
+      
+    <h2>Would you  like  to  receive  announcements about  new CDs  and special offers</h2>
+        <input type="checkbox" id="yes1" name="receiveAns" value="Yes, Id like that">
+        <label for="yes1"> Yes, I'd like that</label><br>
+        
+        <input type="checkbox" id="yes2" name="receiveAns" value="Yes, please send me announcements">
+        <label for="yes2"> Yes, please send me announcements</label><br><br>
+        
+        <label>Please  contact  me by: </label>
+        <select name="contactBy">
+                <option value="Email Post Mail">Email or postal mail </option>
+                <option value="Email Only">Email only</option>
+                <option value="Post Only">Postal mail only</option>
+        </select>
+        
+        <br><input type="submit" value="Submit" id="submit">       
+    </form>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+body { 
+    font-family: "Georgia", serif;
+    font-size: 85%;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+h1 {     
+    font-size: 140%;
+    color: teal;
+    margin-bottom: .5em;    
+}
+br {
+    clear: both;
+}
+
+#quantity {
+    width: 2em;
+}
+
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70em;
+}
+th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: .5em;
+}
+.center {
+    text-align: center;
+}
+
+input[type="submit"] {
+    font-family: "Georgia", serif;
+    width: 10em;
+    height: 2em;
+    margin-left:  0.5em;
+}
